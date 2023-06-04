@@ -1,4 +1,4 @@
-##for a list of words, print each word on a separate line, and uppercase
+##for a list of words, print each word on a separate line, in uppercase
 ##turn that into a function that only prints words beginning with "e"
 
 input_string = input("I'M HUNGRY! FEED ME SOME WORDS! ")
