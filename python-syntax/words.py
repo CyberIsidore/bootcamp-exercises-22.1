@@ -1,8 +1,7 @@
 def e_only(phrase):
     words = list(phrase.split(" "))
-    for word in words:
-        if word.startswith("E"):
-            print(word)
+    just_e = [word for word in words if word.startswith("E")]
+    return just_e
 
 
 phrase = input("I'M HUNGRY! FEED ME SOME WORDS! ").upper()
